@@ -106,7 +106,6 @@ const Product = () => {
         </div>
         <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">
           <p>
-            {" "}
             An e-commerse website is an online platform that facilitates the
             buying and selling of products or services over the internet. It
             serves as a virtual marketplace where businesses and individuals can
