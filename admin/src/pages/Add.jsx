@@ -9,7 +9,7 @@ const Add = () => {
 
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const [Price, setPrice] = useState("");
+  const [price, setPrice] = useState("");
   const [category, setCategory] = useState("Men");
   const [subCategory, setSubCategory] = useState("Topwear");
   const [bestseller, setBestseller] = useState(false);
@@ -130,7 +130,7 @@ const Add = () => {
             <p className="mb-2">Product Price</p>
             <input
               onChange={(e) => setPrice(e.target.value)}
-              value={Price}
+              value={price}
               className="w-full px-3 py-2 sm:w-[120px]"
               type="Number"
               placeholder="25"
