@@ -104,14 +104,14 @@ const Add = () => {
         <div className="flex flex-col sm:flex-row gap-2 w-full sm:gap-8">
           <div>
             <p className="mb-2">Product category</p>
-            <selec
+            <select
               onChange={(e) => setCategory(e.target.value)}
               className="w-full px-3 py-2"
             >
               <option value="Men">Men</option>
               <option value="Women">Women</option>
               <option value="Kids">Kids</option>
-            </selec>
+            </select>
           </div>
 
           <div>
