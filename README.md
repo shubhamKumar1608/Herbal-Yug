@@ -66,8 +66,13 @@ cd ecommerce-app
 2. Install dependencies for both client and server:
 
 ```console
+cd backend
 npm install
-cd client
+
+cd frontend
+npm install
+
+cd admin
 npm install
 ```
 
