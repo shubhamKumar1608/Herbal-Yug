@@ -60,8 +60,8 @@ const Hero = () => {
 
       {/* Right: Image Section */}
       <img
-        className="w-full sm:w-1/2 object-cover"
-        src={assets.hero_img}
+        className="w-full sm:w-1/4 object-cover"
+        src={assets.Glow}
         alt="hero"
       />
     </div>

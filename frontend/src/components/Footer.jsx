@@ -6,12 +6,8 @@ const Footer = () => {
     <div>
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         <div>
-          <img className="mb-5 w-32" src={assets.logo} alt="logo" />
-          <p className="w-full md:w-2/3 text-gray-600">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+          <img className="mb-5 w-32" src={assets.HerbalYug} alt="logo" />
+          <p className="w-full md:w-2/3 text-gray-600">Herbal Yug is a brand committed to delivering pure, natural, and high-quality herbal products that promote a healthy lifestyle. Inspired by ancient Ayurvedic wisdom and backed by modern science, Herbal Yug has been dedicated to preserving nature’s goodness in every product. From herbal supplements to natural skincare and wellness solutions, our products are carefully crafted to support overall well-being. Over the years, Herbal Yug has become a trusted name for those seeking authenticity, purity, and effectiveness in herbal health solutions. Our mission is to bring nature’s healing power to every home, encouraging a holistic and sustainable way of living.
           </p>
         </div>
 
@@ -37,7 +33,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024@ forever.com - All Right Reserved.
+          Copyright 2025@ HerbalYug.com - All Right Reserved.
         </p>
       </div>
     </div>

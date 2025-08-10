@@ -13,30 +13,19 @@ const About = () => {
       <div className="my-10 flex flex-col md:flex-row gap-16">
         <img
           className="w-full md:max-w-[450px]"
-          src={assets.about_img}
+          src={assets.Herbalback}
           alt="about_img"
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p>
-            Forever wa born out of a passion for innovation and a desire to
-            revolutionize the way people shop online. Our journey began with a
-            simple idea: to provide a platform where customers can easily
-            discover, explore, and purchase a wide range of products from the
-            comfort of their homes.
+           Herbal Yug was born out of a passion for holistic wellness and a commitment to bringing the power of nature into everyday life. Our journey began with a simple vision: to create a platform where individuals can easily discover and experience the benefits of authentic herbal products — all from the comfort of their homes.
           </p>
           <p>
-            Since our inception, we've worked tirelessly to curate a diverse
-            selection of high-quality products that cater to every taste and
-            preference. From fashion and beauty to electronics and home
-            essentials, we offer an extensive collection sourced from trusted
-            brands and suppliers.
+            
+Since our inception, we’ve worked with dedication to curate a carefully selected range of herbal and wellness essentials that promote a balanced lifestyle. From natural skincare and immunity boosters to daily wellness solutions, our products are crafted using traditional knowledge, trusted ingredients, and sustainable practices.
           </p>
           <b className="text-gray-800">Our Mission</b>
-          <p>
-            Our mission at Forever is to empower cistomers with choice,
-            convenience, and confidence. We're dedicated to providing a seamless
-            shopping experience that exceeds expectations, from browsing and
-            ordering to delivery and beyond.
+          <p>At Herbal Yug, our mission is to empower individuals with natural choices, everyday convenience, and complete confidence in what they use. We strive to deliver a seamless, transparent, and enriching herbal shopping experience — from discovery to doorstep — while staying true to nature’s wisdom and integrity.
           </p>
         </div>
       </div>

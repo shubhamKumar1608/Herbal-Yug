@@ -24,7 +24,7 @@ const Contact = () => {
           <p className="text-gray-500">
             Tel: (415) 555-0132 <br /> Email: admin@forever.com
           </p>
-          <p className="font-semibold text-xl text-gray-600">
+          {/* <p className="font-semibold text-xl text-gray-600">
             Careers at Forever
           </p>
           <p className="text-gray-500">
@@ -32,7 +32,7 @@ const Contact = () => {
           </p>
           <button className="border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500">
             Explore Jobs
-          </button>
+          </button> */}
         </div>
       </div>
 

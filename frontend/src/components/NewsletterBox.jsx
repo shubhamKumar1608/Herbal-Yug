@@ -11,8 +11,6 @@ const NewsletterBox = () => {
         Subscribe now & get 20% off
       </p>
       <p className="text-gray-400 mt-3">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
       </p>
       <form
         onSubmit={onSubmitHandler}
