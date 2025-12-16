@@ -11,8 +11,15 @@ import orderRouter from "./routes/orderRoute.js";
 // App Config
 const app = express();
 const port = process.env.PORT || 4000;
-connectDB();
-connectCloudinary();
+
+// global error handlers to surface startup problems
+process.on("unhandledRejection", (reason) => {
+  console.error("Unhandled Rejection:", reason);
+});
+process.on("uncaughtException", (err) => {
+  console.error("Uncaught Exception:", err);
+  process.exit(1);
+});
 
 // middlewares
 app.use(express.json());
@@ -28,4 +35,14 @@ app.get("/", (req, res) => {
   res.send("API Working");
 });
 
-app.listen(port, () => console.log("Server started on PORT : " + port));
+// Start: ensure DB and Cloudinary connect before listening
+(async () => {
+  try {
+    await connectDB();
+    connectCloudinary();
+    app.listen(port, () => console.log("Server started on PORT : " + port));
+  } catch (err) {
+    console.error("Failed to start server:", err && err.message ? err.message : err);
+    process.exit(1);
+  }
+})();

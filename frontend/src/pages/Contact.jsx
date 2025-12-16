@@ -19,10 +19,10 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-start gap-6">
           <p className="font-semibold text-xl text-gray-600">Our Store</p>
           <p className="text-gray-500">
-            54709 willms Station <br /> Suite 350, Washington, USA
+           L2/11, P.I.T Colony, Sachiwalay Colony <br /> Kankarbagh, Bankman Colony, Patna, Bihar 800020
           </p>
           <p className="text-gray-500">
-            Tel: (415) 555-0132 <br /> Email: admin@forever.com
+            Tel: +91-81026 87870 <br /> Email: Herbalyug@gmail.com
           </p>
           {/* <p className="font-semibold text-xl text-gray-600">
             Careers at Forever
